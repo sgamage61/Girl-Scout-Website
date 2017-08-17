@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.banner{
+height: 15em;
+width:100%;
+}
+#bannerimg{
+    background-color:#16A085;
+    background-image:url('/girlscoutsunited.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity:.65;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    overflow:hidden;
+    height: 19em;
+    z-index: -1;
+}
+.menubar{
+height:5%;
+background-color:#16A085;
+width:100%;
+
+
+}
+ul{
+    height:auto;
+    padding:8px 0px;
+    margin:0px;
+}
+#menu li{
+    display:inline;
+    padding:0px 3.5em 0px 3.5em;
+    border-right: 10px solid green;
+    overflow:hidden;
+    height:100%;
+}
+a.item{
+    text-decoration:none;
+    color:#00FFFF;
+    padding: 8px 8px 8px 8px;
+    font-size: 1.5em;
+}
+
+.photos{
+    height:30%;
+   width:100%;
+    background-color:#16A085;
+
+}
+#slides{
+   width:50%;
+   height:100%;
+   padding-top:5%;
+   padding-left:75px;
+   display:inline;
+   text-align:left;
+}
+.photos p.first{
+    left:60%;
+    bottom:7em;
+    position:relative;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.photos p.second{
+    position:relative;
+    left:60%;
+    bottom:7em;
+    color:white;
+    font-family: serif;
+    font-size:1.5em;
+}
+
+.w3-button w3-display-left{
+    width:500px;
+    height:400px;
+}
+.content{
+    width:100%;
+    height:30%;
+    background-color:#F8F8FF;
+    vertical-align:top;
+}
+#leftcontent{
+    width:40%;
+    height:600px;
+    background-color:#F8F8FF;
+    display:inline-block;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+#leftcontent p.heading{
+    top:5%;
+    position:relative;
+    font-family:Georgia;
+    font-size:25px;
+    color:#228B22;
+}
+#leftcontent p.body{
+    left:10%;
+    top:15%;
+    position:relative;
+    color:#228B22;
+    overflow-y:scroll;
+}
+#middlecontent{
+    display:inline-block;
+    width:30%;
+    left:40%;
+    height:600px;
+    background-color:#F8F8FF;
+    position:absolute;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+#middlecontent p.heading{
+    top:5%;
+    position:relative;
+    font-family:Georgia;
+    font-size:25px;
+    color:#228B22;
+}
+#middlecontent p.body,h1{
+    left:10%;
+    top:10%;
+    position:relative;
+    color:#228B22;
+    overflow-y:scroll;
+}
+#rightcontent{
+   display:inline-block;
+    width:30%;
+    left:70%;
+    height:600px;
+    background-color:#F8F8FF;
+    position:absolute;
+}
+#rightcontent a{
+font-size:2.2em;
+}
+#rightcontent p.heading{
+    top:5%;
+    position:relative;
+    font-family:Georgia;
+    font-size:25px;
+    color:#228B22;
+}
+#rightcontent p.body{
+    left:10%;
+    top:10%;
+    position:relative;
+    color:#228B22;
+    display:block;
+    overflow-y:scroll;
+}
+.footer{
+    width:100%;
+    height:12em;
+    vertical-align:top;
+    background-color:#16A085;
+    overflow-y:hidden;
+}
+#contact{
+    width:45%;
+    margin-left:80px;
+    height:10em;
+    position:relative;
+    display:inline-block;
+}
+#contact p.address{
+    font-size:1em;
+    color:white;
+    font-family:Arial;
+}
+#pines{
+    width:100%;
+    display:inline;
+    left:60%;
+    overflow:hidden;
+    background-color:#16A085;
+    position:absolute;
+    margin: auto;
+    height:12em;
+}
+
+#pines img{
+    display:inline-block;
+    position:relative;
+    width:50%;
+}
+a.selected{
+    font-weight:bold;
+    color:white;
+    font-size: 1.5em;
+
+}

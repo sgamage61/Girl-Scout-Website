@@ -1,0 +1,63 @@
+.login{
+    height:600px;
+    width:100%;
+    background-color:white;
+}
+.register{
+    height:62.5em;
+    width:100%;
+    background-color:white;
+}
+#forgotdesign{
+    background-color:#F0F8FF;
+    height:35em;
+    width:50%;
+    left:25%;
+    position:relative;
+}
+#logindesign{
+    background-color:#F0F8FF;
+    height:30em;
+    width:50%;
+    left:25%;
+    position:relative;
+}
+#registerdesign{
+    background-color:#F0F8FF;
+    height:40em;
+    width:60%;
+    left:25%;
+    position:relative;
+}
+#registerhere,#loginhere,#forgothere{
+top:5%;
+}
+#errors{
+    height:30px;
+    width:50%;
+    left:25%;
+    position:relative;
+}
+.parameters,.resetfields{
+    width:60%;
+    height:30px;
+    left:10%;
+    position:relative;
+}
+.email,.password,.securityq,.create,.name,.rank,.drop,p.forgotpassword{
+    left:10%;
+    position:relative;
+}
+.btn {
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    left:20%;
+    position:relative;
+}
